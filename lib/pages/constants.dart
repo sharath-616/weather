@@ -1,2 +1,2 @@
-const String domain = 'https://api.openweathermap.org/data/2.5/weather';
-const String apikey = 'ee22cae7954e67563e110993044199d9';
+const String domain = 'http://api.weatherapi.com/v1';
+const String apikey = '7891e87ca53f4d088ea105850232309';
