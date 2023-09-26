@@ -1,21 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:weather/pages/locationpage.dart';
+import 'package:weather/screens/loading_screen.dart';
 
-void  main () => runApp(Home());
+void main() => runApp(MyApp());
 
-
-class Home extends StatelessWidget {
-   Home({super.key});
-
+class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      routes: {
-        'locationPage' : (context) => LocationPage(),
-      },
-      initialRoute: 'locationPage',
+      theme: ThemeData.dark(),
+      home: LoadingScreen(),
     );
-
   }
 }
